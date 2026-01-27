@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Portfolio</title>
+
+    
+    <link rel="stylesheet" href="css/all.min.css">
+
+   
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<header class="header">
+    <p class="logo">BOCO MAHUTIN JEAN-BAPTISTE</p>
+    <nav class="menu">
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#projet">Projets</a></li>
+            <li><a href="#compet">Compétences</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+
+<section class="bienvenue" id="accueil">
+    <div class="hero-text">
+        <h1 class="title">
+        Je suis Jean-Baptiste BOCO,<br>
+        développeur fullstack passionné par la création d’applications web modernes et performantes.<br>
+            
+        </h1>
+
+        <a href="#projet">
+            Voir mes projets <i class="fa-solid fa-arrow-right"></i>
+        </a>
+    </div>
+
+   
+    <img class="image1" src="images/undraw_programming_j1zw.svg" alt="Développeur web" width="300">
+</section>
+
+
+<section id="about" class="apropos">
+    <h2 class="title2">À propos</h2>
+
+    <div class="about-content">
+        <div class="hero-text">
+            <p class="desc">
+                Je m’appelle Jean Baptiste BOCO, Curieux,
+                passionné et formé en informatique et logiciels, je développe des projets web modernes afin de renforcer mes compétences et répondre à des besoins concrets..
+            </p>
+
+            <a href="#">
+                Télécharger mon CV <i class="fa-solid fa-download"></i>
+            </a>
+        </div>
+
+        
+        <img class="image2" src="images/profil.jpg" alt="Illustration développeur">
+    </div>
+</section>
+
+
+<section id="projet" class="mesprojets">
+    <h2 class="title3">Mes Projets</h2>
+
+    <div class="container">
+
+        <div class="project-card">
+            <div class="project-image">
+                <img src="images/undraw_static-assets_di5m.svg" alt="Projet 1">
+            </div>
+            <h3>Portfolio Personnel</h3>
+            <p>Site web responsive présentant mes compétences et projets en développement web.</p>
+            <a href="#" class="project-link">Voir le projet <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image">
+                <img src="images/undraw_design_ewba.svg" alt="Projet 2">
+            </div>
+            <h3>Application To-Do List</h3>
+            <p>Application web pour gérer des tâches avec ajout, suppression et stockage local.</p>
+            <a href="#" class="project-link">Voir le projet <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image">
+                <img src="images/undraw_programmer_raqr.svg" alt="Projet 3">
+            </div>
+            <h3>Site E-commerce Simplifié</h3>
+            <p>Prototype de site e-commerce avec panier d'achat et validation de formulaire.</p>
+            <a href="#" class="project-link">Voir le projet <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="compet" class="competences">
+    <h2 class="title3">Mes Compétences</h2>
+
+    <div class="container2">
+        <div class="skills-block">
+            <h3>Soft Skills</h3>
+            <p>Gestion de projet</p>
+            <div class="progress-bar"><div class="progress-fill" style="--level:90%"></div></div>
+            
+            <p>Résolution de problème</p>
+            <div class="progress-bar"><div class="progress-fill" style="--level:87%"></div></div>
+
+            <p>Adaptabilité</p>
+            <div class="progress-bar"><div class="progress-fill" style="--level:98%"></div></div>
+        </div>
+
+        <div class="skills-block">
+            <h3>Hard Skills</h3>
+            <p>HTML / CSS / JS</p>
+            <div class="progress-bar"><div class="progress-fill" style="--level:85%"></div></div>
+
+            <p>VS Code</p>
+            <div class="progress-bar"><div class="progress-fill" style="--level:100%"></div></div>
+        </div>
+    </div>
+</section>
+
+
+<section id="contact" class="contact">
+    <h3 class="title4">
+        Vous avez un <span class="highlight">projet en tête</span> ?<br>
+        N'hésitez pas à <span class="highlight">me contacter</span>
+    </h3>
+
+    <form class="formulaire" id="contactForm">
+        <input type="text" id="nom" placeholder="Votre nom">
+        <input type="email" id="email" placeholder="Votre email">
+        <textarea id="message" rows="5" placeholder="Votre message"></textarea>
+        <button type="submit">
+            Envoyer <i class="fa-solid fa-arrow-right"></i>
+        </button>
+        <p id="erreur"></p>
+    </form>
+</section>
+
+</main>
+
+
+<footer class="footer">
+    <p>Designed by <span>Jean-Baptiste with HTML,CSS,JS</span></p>
+    <p>© 2026 Tous droits réservés</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
